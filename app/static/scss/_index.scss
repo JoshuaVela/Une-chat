@@ -1,0 +1,28 @@
+.cont-index{
+    #main_chat{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        overflow-y: auto;
+        width: 200px;
+    }
+    .mymsj{
+        // background-color: whitesmoke;
+        width: auto;
+    }
+    .username{
+        margin-right: 10px;
+    }
+    .username::after{
+        content: ":  ";
+    }
+    #room_list{
+        span{
+            margin: 3px;
+            border: black solid 0.15em;
+            padding: 3px;
+        }
+
+    }
+}

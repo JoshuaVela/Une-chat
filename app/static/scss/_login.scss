@@ -1,0 +1,11 @@
+@mixin center($altura) {
+    height: $altura;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont-login{
+    @include center(75vh)
+}

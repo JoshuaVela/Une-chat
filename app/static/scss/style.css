@@ -1,0 +1,80 @@
+.cont-login {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.cont-signup {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.cont-index #main_chat {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50vh;
+  overflow-y: auto;
+  width: 200px;
+}
+
+.cont-index .mymsj {
+  width: auto;
+}
+
+.cont-index .username {
+  margin-right: 10px;
+}
+
+.cont-index .username::after {
+  content: ":  ";
+}
+
+.cont-index #room_list span {
+  margin: 3px;
+  border: black solid 0.15em;
+  padding: 3px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  background: #b3dced;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #b3dced), color-stop(44%, rgba(188, 224, 238, 0.57)), color-stop(50%, rgba(41, 184, 229, 0.52)), color-stop(63%, rgba(41, 184, 229, 0.39)));
+  background: -webkit-gradient(linear, left top, right top, from(#b3dced), color-stop(44%, rgba(188, 224, 238, 0.57)), color-stop(50%, rgba(41, 184, 229, 0.52)), color-stop(63%, rgba(41, 184, 229, 0.39)));
+  background: linear-gradient(to right, #b3dced 0%, rgba(188, 224, 238, 0.57) 44%, rgba(41, 184, 229, 0.52) 50%, rgba(41, 184, 229, 0.39) 63%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#29b8e5', GradientType=1 );
+}
+/*# sourceMappingURL=style.css.map */
